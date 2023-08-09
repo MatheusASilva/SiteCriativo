@@ -138,7 +138,7 @@
     padding: 2vh;
     margin: 1vh;
     float: left;
-    width: 25% ;
+    width: 27% ;
   }
   .felin{
     display: flex;
@@ -164,14 +164,36 @@
   }
   audio{
     color: #C6E5B1;
-    background: text-decoration: #C6E5B1;
+    background: #C6E5B1;
   }
   footer{
     text-align: center;
-    background-color black;
+    background-color:black;
   }
   footer h6 {
     font-family: Franklin;
     font-size: 100%;
-    text-decoration-color: #0;
+    text-decoration-color: 0;
   }
+  main li{
+    display: inline-table;
+  }
+  @media (max-width: 800px) 
+  {
+    main{
+      padding: 4.8%;
+    }
+    main img{
+      float: none;
+      display: inline-block;
+      width: 70%;
+      height: 70%;
+      text-align: center;
+      padding-left: 13%;
+      
+    }
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
