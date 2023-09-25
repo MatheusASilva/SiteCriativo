@@ -27,9 +27,11 @@
     background: #07631b;
     height: 8vh;
   }
-  
-  main {
+  body{
     background-image: url("bg1.jpg");
+  }
+
+  main {
     text-align: center;
   }
   
@@ -128,7 +130,7 @@
   }
   
   ul{
-    text-align: left;
+    text-align: center;
   }
   li a{
     color: honeydew;
@@ -186,14 +188,30 @@
     main img{
       float: none;
       display: inline-block;
-      width: 70%;
-      height: 70%;
+      width: 60%;
+      height: 60%;
       text-align: center;
-      padding-left: 13%;
-      
+      margin-left: 15vw;
+      margin-right: 25vw;
     }
   }
   .nav-list.active {
     transform: translateX(0);
   }
-  
+  h3{
+    text-align: center;
+  }
+  @media (min-width: 999px) 
+  {
+    main{
+      padding: 4.8%;
+      width: 780px;
+    }
+    .bodyOrganiza{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      margin-left: 16%;
+      margin-right: 16%;
+    }  
+  }
